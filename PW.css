@@ -1,0 +1,157 @@
+body {
+    background-color: rgba(0,0,0,0);
+}
+
+div {
+    margin-top: 10%;
+    margin-left: 32.5%;
+    margin-bottom: 0;
+    margin-right: 32.5%;
+    padding-top: 1%;
+    border: 1px hidden #000000;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    display: block;
+    height: 500px;
+    width: 35%;
+    background-color: white;
+    border-radius: 13px;
+    max-width: 35%;
+}
+
+span.dummy {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-image: url("Google_Icon.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 248, 248, 0);
+    height: 45px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+span.SignIn {
+    text-align: center;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    display: block;
+}
+
+span.Use {
+    display: block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 70%;
+    padding-left: 10px;
+    font-size: 1.005em;
+}
+
+.Forget {
+    margin-left: 13.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Guest {
+    display: block;
+    margin-top: 50px;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
+    margin-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.More {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
+    font-weight: 600;
+    margin-top: 6px;
+
+}
+
+a:visited {
+    color: rgba(1, 1, 191, 0.714);
+}
+
+a:hover {
+    cursor: pointer;
+    color: hsl(240, 100%, 60%);
+}
+
+select.dokku {
+    display: inline-block;
+    margin-left: 32.5%;
+    margin-top: 30px;
+    height: 2%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+a.s1:link, a.s2:link, a.s3:link {
+    height: 3px;
+    padding: 6px;
+    color: white;
+}
+
+.Linkos {
+    margin-left: 16%;
+}
+
+.ChooseAcc {
+    margin-top: 40px;
+    margin-left: 13.5%;
+    height: 45px;
+    width: 35%;
+    padding: 10px;
+    font-size: 1.05em;
+    border-radius: 5px;
+}
+
+.Next {
+    display: inline-block;
+    height: 35px;
+    width: 22%;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 123, 255, 0.8);
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 1%;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.Next:hover {
+    color: white;
+    border: 1px hidden rgba(1, 1, 191, 0.714);
+    box-shadow: 0px 0px 15px blue;
+}
+
+.Next:active {
+    color: black;
+    box-shadow: 0px 0px 20px rgb(242, 210, 0);
+}
+
